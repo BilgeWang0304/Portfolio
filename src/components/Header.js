@@ -23,13 +23,9 @@ const socials = [
 ];
 
 const Header = () => {
-
-  // **Step 5 (bonus)**
-
   const headerRef = useRef(null); 
   useEffect(() => { 
     let prevScrollPos = window.scrollY; 
-  
     const handleScroll = () => { 
       const currentScrollPos = window.scrollY; 
       const headerElement = headerRef.current; 
@@ -44,7 +40,6 @@ const Header = () => {
       prevScrollPos = currentScrollPos; 
     } 
     window.addEventListener('scroll', handleScroll) 
-  
     return () => { 
       window.removeEventListener('scroll', handleScroll) 
     } 

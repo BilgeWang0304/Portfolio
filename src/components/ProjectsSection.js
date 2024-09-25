@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Front-end Project",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "LittleLemon is a restaurant webpage built with React, showcasing information that allows customers to explore delectable dishes and make online reservations. The site features sections for the restaurant's story, contact information, and a welcoming home page. ",
     getImageSrc: () => require("../images/photo1.jpg"),
     url: "https://bilge-littlelemon.netlify.app",
   },
@@ -19,13 +19,13 @@ const projects = [
     url: "https://github.com/BilgeWang0304/full-stack-project/tree/main"
   },
   {
-    title: "Information Security",
+    title: "Portfolio Webpage",
     description:
       "This portfolio webpage is built using Charka, providing a clean, responsive interface with sections like project introduction and contact. It leverages Chakra UI's design system for consistent styling and smooth user experience across different screen sizes.",
     getImageSrc: () => require("../images/photo3.jpg"),
   },
   {
-    title: "Portfolio Webpage",
+    title: "Information Security",
     description:
       "This portfolio webpage is built using Charka, providing a clean, responsive interface with sections like project introduction and contact. It leverages Chakra UI's design system for consistent styling and smooth user experience across different screen sizes.",
     getImageSrc: () => require("../images/photo4.jpg"),
