@@ -23,6 +23,7 @@ const projects = [
     description:
       "This portfolio webpage is built using Charka, providing a clean, responsive interface with sections like project introduction and contact. It leverages Chakra UI's design system for consistent styling and smooth user experience across different screen sizes.",
     getImageSrc: () => require("../images/photo3.jpg"),
+    url: "https://bilgewang.vercel.app/"
   },
   {
     title: "Information Security",
