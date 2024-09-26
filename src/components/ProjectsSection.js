@@ -9,7 +9,7 @@ const projects = [
     description:
       "LittleLemon is a restaurant webpage built with React, showcasing information that allows customers to explore delectable dishes and make online reservations. The site features sections for the restaurant's story, contact information, and a welcoming home page. ",
     getImageSrc: () => require("../images/photo1.jpg"),
-    url: "https://bilge-littlelemon.netlify.app",
+    url: "https://littlelemon-bw.netlify.app",
   },
   {
     title: "Full-stack Project",
