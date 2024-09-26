@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Information Security",
     description:
-      "This portfolio webpage is built using Charka, providing a clean, responsive interface with sections like project introduction and contact. It leverages Chakra UI's design system for consistent styling and smooth user experience across different screen sizes.",
+      "I am currently studying a master's program in Information Security and Cybersecurity, which covers key areas such as network security, data protection, IT security policies, and digital forensics. This program equips me with the skills to protect digital assets and manage security for organizations in today's evolving tech landscape.",
     getImageSrc: () => require("../images/photo4.jpg"),
   },
 ];
