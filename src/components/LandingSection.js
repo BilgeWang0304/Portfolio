@@ -4,8 +4,9 @@ import FullScreenSection from "./FullScreenSection";
 import portrait from "../images/portrait.jpg"
 
 const greeting = "Hello, I am Zixi Wang!";
-const bio1 = "A frontend developer";
-const bio2 = "and a full-stack developer";
+const bio1 = "Frontend Developer";
+const bio2 = "Full-stack developer";
+const bio3 = "Master Student in Information Security";
 
 const LandingSection = () => (
   <FullScreenSection
@@ -23,6 +24,7 @@ const LandingSection = () => (
       <p>{greeting}</p>
       <Heading>{bio1}</Heading>
       <Heading>{bio2}</Heading>
+      <Heading>{bio3}</Heading>
     </VStack>
   </FullScreenSection>
 );

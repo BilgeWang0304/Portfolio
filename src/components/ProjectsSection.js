@@ -5,7 +5,7 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "Front-end Project",
+    title: "React Project",
     description:
       "LittleLemon is a restaurant webpage built with React, showcasing information that allows customers to explore delectable dishes and make online reservations. The site features sections for the restaurant's story, contact information, and a welcoming home page. ",
     getImageSrc: () => require("../images/photo1.jpg"),
@@ -26,9 +26,9 @@ const projects = [
     url: "https://bilgewang.vercel.app/"
   },
   {
-    title: "Information Security",
+    title: "WeatherGPT",
     description:
-      "I am currently studying a master's program in Information Security and Cybersecurity, which covers key areas such as network security, data protection, IT security policies, and digital forensics. This program equips me with the skills to protect digital assets and manage security for organizations in today's evolving tech landscape.",
+      "WeatherGPT is a web application built with Next.js that allows users to search for real-time weather data by location. Powered by external weather APIs, it provides accurate information on temperature, humidity, and conditions in a simple and intuitive interface.",
     getImageSrc: () => require("../images/photo4.jpg"),
   },
 ];
