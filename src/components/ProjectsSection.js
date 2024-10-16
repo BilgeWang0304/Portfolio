@@ -30,7 +30,7 @@ const projects = [
     description:
       "WeatherGPT is a web application built with Next.js that allows users to search for real-time weather data by location. Powered by external weather APIs, it provides accurate information on temperature, humidity, and conditions in a simple and intuitive interface.",
     getImageSrc: () => require("../images/photo4.jpg"),
-    url: "https://weathergpt-nextjs-9q49.vercel.app/"
+    url: "https://weathergpt-nextjs-9q49.vercel.app"
   },
 ];
 
